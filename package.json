@@ -1,0 +1,32 @@
+{
+  "name": "ahj-bak",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "engines": {
+    "node": "11.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nionka/ahj-http-bak.git"
+  },
+  "author": "Olga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nionka/ahj-http-bak/issues"
+  },
+  "homepage": "https://github.com/nionka/ahj-http-bak#readme",
+  "dependencies": {
+    "forever": "^3.0.4",
+    "http": "0.0.1-security",
+    "koa": "^2.13.0",
+    "koa-body": "^4.2.0",
+    "koa-static": "^5.0.0"
+  }
+}
